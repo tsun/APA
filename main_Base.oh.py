@@ -4,7 +4,7 @@ timestamp = time.strftime("%Y-%m-%d_%H.%M.%S", time.localtime())
 import socket
 hostName = socket.gethostname()
 
-domains = ['Product', 'Clipart', 'Real_World', 'Art']
+domains = ['Product', 'Art', 'Clipart', 'Real_World']
 
 for src in domains:
     for i in [0]:
@@ -16,7 +16,7 @@ for src in domains:
                 @{}
                 '''.format
         args = ['--base_model=Base'
-                    , '--gpu=0'
+                    , '--gpu=1'
                     , '--timestamp={}'.format(timestamp)
                     , '--random_seed={}'.format(i)
 
