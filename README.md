@@ -22,7 +22,7 @@ python main_APAn.oh.SF.py
 ## Citation
 If you find our paper and code useful for your research, please consider citing
 ```bibtex
-@article{sun2022local,
+@article{sun2022domain,
     author    = {Sun, Tao and Lu, Cheng and Ling, Haibin},
     title     = {Domain Adaptation with Adversarial Training on Penultimate Activations},
     journal   = {arXiv preprint arXiv:2208.12853},
